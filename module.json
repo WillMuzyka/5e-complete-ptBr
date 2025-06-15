@@ -1,7 +1,7 @@
 {
   "id": "5e-complete",
   "title": "5e Complete Compendium",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "authors": [
     {
       "name": "btbias",
@@ -28,6 +28,71 @@
         "compatibility": {
           "minimum": "2.0.0",
           "verified": "2.0.3"
+        }
+      }
+    ],
+    "requires": [
+      {
+        "id": "dice-so-nice",
+        "type": "module",
+        "manifest": "https://gitlab.com/riccisi/foundryvtt-dice-so-nice/-/raw/master/module/module.json",
+        "compatibility": {
+          "minimum": "5.1.8",
+          "verified": "5.1.8"
+        }
+      },
+      {
+        "id": "dae",
+        "type": "module",
+        "manifest": "https://gitlab.com/tposney/dae/raw/dndv4/package/module.json",
+        "compatibility": {
+          "minimum": "12.0.25",
+          "verified": "12.0.25"
+        }
+      },
+      {
+        "id": "itemacro",
+        "type": "module",
+        "manifest": "https://github.com/Foundry-Workshop/Item-Macro/releases/download/v3.0.0/module.json",
+        "compatibility": {
+          "minimum": "3.0.0",
+          "verified": "3.0.0"
+        }
+      },
+      {
+        "id": "magicitems",
+        "type": "module",
+        "manifest": "https://gitlab.com/riccisi/foundryvtt-magic-items/raw/master/module/module.json",
+        "compatibility": {
+          "minimum": "3.0.0",
+          "verified": "3.0.0"
+        }
+      },
+      {
+        "id": "rollgroups",
+        "type": "module",
+        "manifest": "https://github.com/krbz999/rollgroups/releases/latest/download/module.json",
+        "compatibility": {
+          "minimum": "12.0.1",
+          "verified": "12.0.1"
+        }
+      },
+      {
+        "id": "tidy5e-sheet",
+        "type": "module",
+        "manifest": "https://github.com/sdenec/tidy5e-sheet/releases/download/0.10.0/module.json",
+        "compatibility": {
+          "minimum": "0.10.0",
+          "verified": "0.10.0"
+        }
+      },
+      {
+        "id": "wild-magic-surge-5e",
+        "type": "module",
+        "manifest": "https://github.com/johnnolan/wild-magic-surge-5e/releases/latest/download/module.json",
+        "compatibility": {
+          "minimum": "6.1.1",
+          "verified": "6.1.1"
         }
       }
     ]
